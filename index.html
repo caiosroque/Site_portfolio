@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!--JAVASCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Barras de navegação</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <header class="wallpaper">
+        <nav class="navbar navbar-expand-lg bg-nav-color" id="navbar">
+
+            <div class="container py-3">
+
+              <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a href="#" class="btn">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn">Nossa equipe</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="btn">Sobre nós</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <form class="d-flex" role="search">
+
+                  <button class="navbar-toggler" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbar-items"
+                  aria-controls="navbar-items"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  >
+                  <i class="bi bi-briefcase"></i>
+                  </button>
+
+                  <input class="form-control me-2 input-config" type="search" placeholder="Pesquisar" aria-label="Search" style="
+                  color: #fff;
+                  margin: 5px;
+                  border-radius: 15px;
+                  border: 1px solid #fff;
+                  padding-left: 2em;
+                  background-color: rgba(255, 255, 255, 0.267);">
+                  <button class="btn btn-outline-success" type="submit" style="
+                  color: #fff;
+                  margin: 5px;
+                  border-radius: 15px;
+                  border: 1px solid #fff;
+                  ">Pesquisar</button>
+
+                </form>
+
+            </div>
+        </nav>
+
+        <div class="container">
+          
+            <div class="row">
+
+              <div class="col col-config">
+                <h1 style="font-size: 3em;">Lorem Ipsun</h1>
+                <p style="font-size: 1.5em; color: #BBB8BF;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit hic alias quam optio, iste consequatur, nulla assumenda fuga perspiciatis iure deleniti perferendis neque a? Eveniet quisquam perspiciatis quidem dignissimos minima?</p>
+
+                <a href="#" class="btn btn-dark">Saiba mais</a>
+
+              </div>
+
+
+            </div>
+
+        </div>
+
+
+    </header>
+    <!--NAVBAR-->
+
+    <!--SLIDER 01-->
+    <div class="container">
+        <div class="container text-center" style="margin-bottom: 3em;">
+            <div class="row row-css">
+              <div class="col d-flex" style="margin-bottom: 1em;">
+
+                <div class="card" style="width: 18rem; height:auto; background-color: rgba(255, 255, 255, 0.151);
+                border: 1px solid rgba(255, 255, 255, 0.315); margin: auto;
+                border-radius: 15px;">
+
+                    <div class="card-body">
+                      <i class="bi bi-clipboard2-check" style="font-size: 40px; color: rgba(255, 255, 255, 0.842);"></i>
+                      <h5 class="card-title" style="color: rgba(255, 255, 255, 0.842);">Entregas no prazo</h5>
+                      <p class="card-text" style="color: rgba(255, 255, 255, 0.842);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark">Saiba mais</a>
+                    </div>
+
+                  </div>
+              </div>
+
+              <div class="col d-flex" style="margin-bottom: 1em;">
+
+                <div class="card" style="width: 18rem; background-color:rgba(255, 255, 255, 0.151);
+                border: 1px solid rgba(255, 255, 255, 0.315); margin: auto; border-radius: 15px;">
+
+                    <div class="card-body">
+                      <i class="bi bi-shield-lock" style="font-size: 40px; color: rgba(255, 255, 255, 0.842);"></i>
+                      <h5 class="card-title" style="color: rgba(255, 255, 255, 0.842);">Proteção 24 horas</h5>
+                      <p class="card-text" style="color: rgba(255, 255, 255, 0.842);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark">Saiba mais</a>
+                    </div>
+
+                  </div>
+
+              </div>
+
+              <div class="col d-flex" style="margin-bottom: 1em;">
+                <div class="card" style="width: 18rem; background-color:rgba(255, 255, 255, 0.151);
+                border: 1px solid rgba(255, 255, 255, 0.315); margin: auto; border-radius: 15px;">
+
+                    <div class="card-body">
+                      <i class="bi bi-person-check" style="font-size: 40px; color: rgba(255, 255, 255, 0.842);"></i>
+                      <h5 class="card-title" style="color: rgba(255, 255, 255, 0.842);">Equipe de confiança</h5>
+                      <p class="card-text" style="color: rgba(255, 255, 255, 0.842);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark">Saiba mais</a>
+                    
+                    </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+    </div>
+    <!--SLIDER 01-->
+
+    <!--SLIDER 02-->
+    <div class="container" style="margin-bottom: 3em;" id="slider02">
+      <div class="container text-center">
+        <div class="row row-css">
+
+          <div class="col-6 text-center div-css" style="
+            border-right: 1px solid #fff;
+            ">
+            <h1 style="
+            padding-top: 10px;
+            color: #fff;
+            margin-bottom: 1em;">
+            Entenda como funciona</h1>
+            <p style="color: #BBB8BF;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, officia repudiandae? Dolorem expedita natus dolor doloribus debitis temporibus! Excepturi doloremque voluptatem impedit sed animi quam hic maiores beatae harum sapiente.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, officia repudiandae? Dolorem expedita natus dolor doloribus debitis temporibus! Excepturi doloremque voluptatem impedit sed animi quam hic maiores beatae harum sapiente.
+            </p>
+          </div>
+
+          <div class="col-6">
+            <img src="foto1.jpg" alt="" class="img-fluid mask">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-bottom: 3em;">
+      <div class="container text-center">
+        <div class="row row-css">
+
+          <div class="col-6">
+            <img src="foto2.jpg" alt="" class="img-fluid mask">
+          </div>
+
+          <div class="col-6 text-center" style="
+            border-left: 1px solid #fff;
+            ">
+            <h1 style="
+            padding-top: 10px;
+            color: #fff;
+            margin-bottom: 1em;">
+            Nosso serviço</h1>
+            <p style="color: #BBB8BF;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, officia repudiandae? Dolorem expedita natus dolor doloribus debitis temporibus! Excepturi doloremque voluptatem impedit sed animi quam hic maiores beatae harum sapiente.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, officia repudiandae? Dolorem expedita natus dolor doloribus debitis temporibus! Excepturi doloremque voluptatem impedit sed animi quam hic maiores beatae harum sapiente.
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!--SLIDER 03-->
+      <div class="container-fluid section-wallpaper" id="section-css">
+
+        <div class="texts text-center">
+          <h2>Ainda tem dúvidas?</h2>
+          <h3>Preencha os dados para nos enviar um email</h3>
+        </div>
+        <div class="row align-items-center">
+          <div class="col col-css" style="padding: 3em;">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Nome</label>
+                <input type="password" class="form-control" id="inputName">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="inputAddress">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Endereço 2</label>
+                <input type="text" class="form-control" id="inputAddress2">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Estado</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Escolha...</option>
+                  <option>...</option>
+                </select>
+              </div>
+            
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col" style="padding: 3em;">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Seu melhor email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@example.com">
+            </div>
+            
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Digite sua duvida</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    <!--SLIDER 03-->
+      
+    <!--Footer -->
+    <footer >
+      <div class="container text-center" id="footer-css">
+
+        <div class="row">
+          <div class="col">
+            <ul class="footer-links">
+
+              <li class="footer-link">
+                <a href="" class="footer-a">Nossos Contatos</a>
+              </li>
+
+              <li class="footer-link">
+                <a href="" class="footer-a">Trabalhe conosco</a>
+              </li>
+
+              <li class="footer-link">
+                <a href="" class="footer-a">Sobre nossa empresa</a>
+              </li>
+
+              <li class="footer-link">
+                <a href="" class="footer-a">Seu cadastro</a>
+              </li>
+
+            </ul>
+            
+            
+          </div>
+          <div class="col">
+            <ul class="footer-links">
+
+              <li class="footer-link">
+                <a href="" class="footer-a">Nossos Contatos</a>
+              </li>
+
+              <li class="footer-link">
+                <a href="" class="footer-a">Trabalhe conosco</a>
+              </li>
+
+              <li class="footer-link">
+                <a href="" class="footer-a">Sobre nossa empresa</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col">
+            
+            <ul class="footer-links">
+
+              <li class="footer-link">
+                <a href="" class="footer-a">16 99948-98452</a>
+              </li>
+
+              <li class="footer-link">
+                <a href="" class="footer-a">empresa@outlook.com</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-links d-inline-flex">
+              <li class="footer-link">
+                <a href="" class="footer-a"><i class="bi bi-instagram"></i></a>
+              </li>
+
+              <li class="footer-link">
+                <a href="" class="footer-a"><i class="bi bi-linkedin"></i></a>
+              </li>
+
+              <li class="footer-link">
+                <a href="" class="footer-a"><i class="bi bi-facebook"></i></a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+        <h4 class="direitos">Direitos reservados &copy; Empresa, 2023 </h4>
+      </div>
+    </footer>
+    <!--Footer -->
+    
+
+</body>
+</html>
